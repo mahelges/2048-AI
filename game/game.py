@@ -8,7 +8,7 @@ def main():
     # random initial state
     
     #b = Board()
-    b = Board(array([[2, 2, 2, 2], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]))
+    b = Board(array([[0, 0, 0, 2], [0, 0, 0, 2], [0, 0, 0, 0], [0, 0, 0, 0]]))
     print(b)
     b.perform_action(Action.DOWN)
     print(b)
