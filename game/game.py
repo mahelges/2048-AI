@@ -10,7 +10,7 @@ def main():
     #b = Board()
     b = Board(array([[0, 0, 0, 2], [0, 0, 0, 2], [0, 0, 0, 0], [0, 0, 0, 0]]))
     print(b)
-    b.perform_action(Action.DOWN)
+    b.perform_action(Action.UP)
     print(b)
     # b.add_new_number()
     # print(b)
